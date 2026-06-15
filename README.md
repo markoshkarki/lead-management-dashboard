@@ -2,6 +2,10 @@
 
 A modern CRM-style Lead Management Dashboard built with Next.js 16, TypeScript, Tailwind CSS, and shadcn/ui.
 
+## Live Demo
+
+🔗 https://your-project.vercel.app
+
 ## Features
 
 - Create Leads

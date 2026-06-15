@@ -4,7 +4,7 @@ A modern CRM-style Lead Management Dashboard built with Next.js 16, TypeScript, 
 
 ## Live Demo
 
-🔗 https://your-project.vercel.app
+🔗 https://[Link to demo](https://lead-management-dashboard-beryl.vercel.app/)
 
 ## Features
 

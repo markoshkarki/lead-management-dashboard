@@ -1,0 +1,58 @@
+import { Lead } from "@/types/lead";
+
+export const mockLeads: Lead[] = [
+  {
+    id: "1",
+    name: "Sujan Shrestha",
+    company: "TechAxis Nepal",
+    email: "sujan@techaxis.com.np",
+    phone: "9841234567",
+    status: "New",
+    createdAt: "2026-06-01",
+  },
+  {
+    id: "2",
+    name: "Priya Karki",
+    company: "Cloud Himalaya",
+    email: "priya@cloudhimalaya.com",
+    phone: "9851123456",
+    status: "Contacted",
+    createdAt: "2026-06-02",
+  },
+  {
+    id: "3",
+    name: "Ramesh Adhikari",
+    company: "Digital Nepal Solutions",
+    email: "ramesh@dns.com.np",
+    phone: "9812345678",
+    status: "Qualified",
+    createdAt: "2026-06-03",
+  },
+  {
+    id: "4",
+    name: "Aashika Poudel",
+    company: "Everest Tech",
+    email: "aashika@everesttech.com",
+    phone: "9861112233",
+    status: "Converted",
+    createdAt: "2026-06-04",
+  },
+  {
+    id: "5",
+    name: "Bikash Gautam",
+    company: "Yeti Software",
+    email: "bikash@yetisoftware.com",
+    phone: "9807654321",
+    status: "Lost",
+    createdAt: "2026-06-05",
+  },
+  {
+    id: "6",
+    name: "Sneha Maharjan",
+    company: "Kathmandu Digital Hub",
+    email: "sneha@kdh.com.np",
+    phone: "9845678901",
+    status: "New",
+    createdAt: "2026-06-06",
+  },
+];

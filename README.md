@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lead Management Dashboard
 
-## Getting Started
+A modern CRM-style Lead Management Dashboard built with Next.js 16, TypeScript, Tailwind CSS, and shadcn/ui.
 
-First, run the development server:
+## Features
+
+- Create Leads
+- Edit Lead Information
+- Delete Leads
+- Status Tracking
+- Search Leads
+- Filter Leads by Status
+- Pagination
+- Dashboard Analytics
+- Local Storage Persistence
+- Responsive Design
+- Toast Notifications
+- Confirmation Dialogs
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](public/screenshots/dashboard.png)
+
+### Add Lead
+
+![Add Lead](public/screenshots/add-lead.png)
+
+### Edit Lead
+
+![Edit Lead](public/screenshots/edit-lead.png)
+
+## Tech Stack
+
+- Next.js 16.2.9
+- React 19
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+- Sonner
+
+## Installation
 
 ```bash
+git clone <repository-url>
+cd lead-management-dashboard
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+src/
+├── app/
+├── components/
+├── data/
+├── lib/
+└── types/
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features Implemented
 
-## Learn More
+### Lead Management
 
-To learn more about Next.js, take a look at the following resources:
+- Create new leads
+- Edit lead information
+- Delete leads with confirmation
+- Track lead status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Dashboard Analytics
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Total Leads
+- New Leads
+- Contacted Leads
+- Converted Leads
 
-## Deploy on Vercel
+### User Experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Search functionality
+- Status filtering
+- Pagination
+- Responsive design
+- Toast notifications
+- Persistent data storage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Future Improvements
+
+- Authentication
+- Backend Integration
+- Database Support
+- CSV Export
+- Role-Based Access Control
+- Email Notifications
+
+## Author
+
+Markosh Karki
